@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Limelight&display=swap');
+
+body {
+    background-image: url("../img/movie.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Limelight', arial;
+}
+
+/*titre*/
+.title {
+    padding-top: 40px;
+    margin-left: 60px;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+h1 {
+    text-transform: uppercase;
+    background: linear-gradient(to right, rgb(238, 79, 6) 0%, #f0c128 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+}
+
+/*quotes*/
+.row {
+    font-size: 25px;
+    background: linear-gradient(to right, rgb(8, 22, 206) 0%, #317c88 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: flex;
+    text-align: center;
+}
+
+.two {
+    display: flex;
+    height: 300px;
+}
+
+/*button*/
+.button {
+    margin-left: 250px;
+    padding-bottom: 80px;
+}
+
+.click {
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    box-shadow: 3px 3px 12px #999;
+    background: rgb(248, 248, 248);
+    color: white;
+    background-color: rgba(7, 7, 7, 0.979);
+}
+
+/*responsive*/
