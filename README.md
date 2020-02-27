@@ -1,2 +1,2 @@
 # quote_generator
-random quote genrator of TV
+random quote generator of TV
