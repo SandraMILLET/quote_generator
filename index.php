@@ -24,17 +24,21 @@
 
   <body>
     <div class="container-fluid">
-      <div class="titre">
-        <div class="col-md-12 title">
-          <h1>Répliques <br>cultes</h1>
+      <div class="row">
+      <div class="col-xl-6 col-md-2 col-sm-2 col-xs-2"></div>
+        <div class="col-xl-5 col-md-5 col-sm-5 col-xs-5 title">
+          <h1>Répliques<br> cultes</h1>
         </div>
       </div>
-      <div class="two">
+      <div class="row">
         <!--insert quotes-->
-        <div class="col-md-2 col-sm-0 col-xs-0"></div>
-        <div class="col-md-4 col-sm-8 col-xs-8 quotes"></div>
-        <div class="col-md-2 col-sm-0 col-xs-0"></div>
-        <div class="col-md-4 col-sm-4 0 col-xs-4 button">
+        <div class="col-xl-2 col-md-0 col-sm-2 col-xs-0"></div>
+        <div class="col-xl-4 col-md-4 col-sm-4 col-xs-10 quotes"></div>
+        
+      </div>
+      <div class="row">
+      <div class="col-xl-3 col-md-3 col-sm-3 col-xs-2"></div>
+      <div class="col-xl-2 col-md-3 col-sm-2 col-xs-3 button">
           <button type="button" class="btn btn-outline-dark click"> To view new quote<br>Click Here! </button>
         </div>
       </div>
