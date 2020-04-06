@@ -4,8 +4,8 @@ error_reporting(-1);
 
 /* Connexion */
 $dsn = 'mysql:dbname=random2;host=127.0.0.1; charset=utf8';
-$user = 'root';
-$password = 'root';
+$user = '';
+$password = '';
 
 try {
     $dbh = new PDO($dsn, $user, $password);
